@@ -1,12 +1,12 @@
 # Table of contents
 
 * [Hello](README.md)
-* [Installation d'outils](readme/README.md)
-  * [Bloodhound](readme/bloodhound.md)
-  * [CrackMapExec](readme/crackmapexec.md)
-  * [Impacket](readme/impacket.md)
-  * [Neo4J](readme/neo4j.md)
-  * [Sharphound (Linux)](readme/sharphound-linux.md)
+* [Installation d'outils](installation-doutils/README.md)
+  * [Bloodhound](installation-doutils/bloodhound.md)
+  * [CrackMapExec](installation-doutils/crackmapexec.md)
+  * [Impacket](installation-doutils/impacket.md)
+  * [Neo4J](installation-doutils/neo4j.md)
+  * [Sharphound (Linux)](installation-doutils/sharphound-linux.md)
 * [Cheat Sheet](cheat-sheet/README.md)
   * [docker](cheat-sheet/docker.md)
   * [find](cheat-sheet/find.md)
