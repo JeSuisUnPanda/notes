@@ -1,6 +1,6 @@
 # Informations techniques
 
-## nikto
+### nikto
 
 Cet outil permet de récupérer diverses informations techniques sur un serveur web _via_ des requêtes `http`.
 

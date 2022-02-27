@@ -12,6 +12,7 @@
   * [find](cheat-sheet/find.md)
   * [git](cheat-sheet/git.md)
   * [grep](cheat-sheet/grep.md)
+  * [influxDB](cheat-sheet/influxdb.md)
   * [ip](cheat-sheet/ip.md)
   * [msfconsole](cheat-sheet/msfconsole.md)
   * [mysql](cheat-sheet/mysql.md)
@@ -57,14 +58,17 @@
   * [Password Spraying](test-dintrusion-interne/windows/password-spraying.md)
   * [Protocoles multidiffusion](test-dintrusion-interne/windows/protocoles-multidiffusion.md)
   * [Reconnaissance](test-dintrusion-interne/windows/reconnaissance.md)
+* [Tunnel](test-dintrusion-interne/tunnel.md)
 
 ## Test d'intrusion externe
 
 * [Méthodologie](test-dintrusion-externe/methodologie.md)
 * [Enumération](test-dintrusion-externe/enumeration/README.md)
-  * [Pages](test-dintrusion-externe/enumeration/pages.md)
+  * [git](test-dintrusion-externe/enumeration/git.md)
   * [Informations techniques](test-dintrusion-externe/enumeration/informations-techniques.md)
+  * [Pages](test-dintrusion-externe/enumeration/pages.md)
   * [Sous domaines](test-dintrusion-externe/enumeration/sous-domaines.md)
   * [Wordpress](test-dintrusion-externe/enumeration/wordpress.md)
 * [Injection](test-dintrusion-externe/injection/README.md)
   * [SSTI](test-dintrusion-externe/injection/ssti.md)
+  * [Injections de commandes](test-dintrusion-externe/injection/injections-de-commandes.md)

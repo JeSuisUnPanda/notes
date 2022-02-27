@@ -1,6 +1,6 @@
 # telnet
 
-## Envoyer un mail
+### Envoyer un mail
 
 ```
 telnet <IP> 25

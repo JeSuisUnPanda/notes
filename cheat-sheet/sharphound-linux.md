@@ -1,6 +1,6 @@
 # sharphound (linux)
 
-## Récupération des informations sur un domaine
+### Récupération des informations sur un domaine
 
 ```
 bloodhound-python -u <USER> -p "<PASS>" -ns <IP-DC> -d <DOMAIN.LOCAL> -c all

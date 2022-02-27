@@ -1,6 +1,6 @@
 # find
 
-## Recherche de fichiers
+### Recherche de fichiers
 
 * Trouver les fichiers accessibles à l'utilisateur courant :
 

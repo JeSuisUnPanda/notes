@@ -19,8 +19,6 @@ hashcat -m 13100 --force -a 0 hashes.kerberoast passwords_kerb.txt
 
 Plusieurs format de hash peuvent être obtenu :
 
-$17 : AES128
-
-$18 : AES256 (-m 19700 sur hashcat, pas pris en compte par john)
-
-$23 : RC4-HMAC-MD5 (pris en compte par john)
+* $17 : AES128
+* $18 : AES256 (-m 19700 sur [hashcat](../cassage-dempreinte/hashcat.md), pas pris en compte par [john](../cassage-dempreinte/john.md))
+* $23 : RC4-HMAC-MD5 (pris en compte par [john](../cassage-dempreinte/john.md))

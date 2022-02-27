@@ -1,6 +1,6 @@
 # Sharphound (Linux)
 
-## Installation avec Docker
+### Installation avec Docker
 
 ```
 git clone https://github.com/fox-it/Bloodhound.py

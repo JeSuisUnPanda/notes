@@ -1,8 +1,12 @@
 # git
 
-## Enumération sur les _commits_
+* Lister les différentes branches :&#x20;
 
-* Lister les différentes phases de _commit_ :
+```
+git branch
+```
+
+* Lister les différents _commit_ :
 
 ```
 git log
@@ -12,4 +16,10 @@ git log
 
 ```
 git show <HASH-DU-COMMIT>
+```
+
+* Mettre à jour l'arborescence de fichiers locaux par rapport à un _commit_ :&#x20;
+
+```
+git checkout <HASH-DU-COMMIT>
 ```

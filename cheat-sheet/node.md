@@ -1,6 +1,6 @@
 # node
 
-## Création d'un serveur NodeJS
+### Création d'un serveur NodeJS
 
 * Créer le fichier `app.js` :
 

@@ -12,7 +12,7 @@ rpcclient -U "" -N <IP>
 rpcclient -U "<USER>%<PASS>" -N <IP>
 ```
 
-## TIPS
+#### TIPS
 
 * Enumérer les utilisateurs avec la commande `enumdomusers`.
 * Enumérer les groupes avec la commande `enumdomgroups`.

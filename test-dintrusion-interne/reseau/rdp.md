@@ -1,12 +1,12 @@
 # RDP
 
-## Réaliser une connexion
+### Réaliser une connexion
 
 ```
 rdesktop <IP>
 ```
 
-## Erreur connue
+#### Erreur connue
 
 Résoudre le message d'erreur :
 

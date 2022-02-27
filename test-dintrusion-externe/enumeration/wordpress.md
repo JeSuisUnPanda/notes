@@ -1,6 +1,6 @@
 # Wordpress
 
-## Prise d'informations
+### Prise d'informations
 
 * Enumérer rapidement sur un site Worpress :
 
@@ -20,7 +20,7 @@ wpscan --url <URL> -e
 wpscan --plugins-detection aggressive --force --url <URL>
 ```
 
-## Vulnérabilités connues
+### Vulnérabilités connues
 
 #### WordPress Core < 5.2.3 - Viewing Unauthenticated/Password/Private Posts
 

@@ -1,6 +1,6 @@
 # SMB
 
-## Enumération des partages réseau
+### Enumération des partages réseau
 
 * Lister les partages réseau d'une machine de manière anonyme :
 
@@ -34,7 +34,7 @@ cme smb <IP>/<MASK> -u <USER> -p <PASS> --shares
 smbclient -L //<IP> -U "<DOMAIN.LOCAL>/<USERS%<PASS>"
 ```
 
-## Lecture d'un partage
+### Lecture d'un partage
 
 ```
 smbmap -R <REPERTOIRE> -H <IP> -A <file> -q
@@ -52,11 +52,11 @@ smbclient \\\\<IP>\\<SHARE> -U "<DOMAIN.LOCAL>/<USER>%<PASS>"
 
 **Note :** _il est également possible d'accéder aux partages via l'explorateur de fichier avec le protocole `smb://`._
 
-## Exécuter des commandes système
+### Exécuter des commandes système
 
 Il est possible d'utiliser l'option `-x` de l'outil `smbmap` pour exécuter des commandes système.
 
-## Connexion distante
+### Connexion distante
 
 * Avec des identifiants :
 
@@ -73,7 +73,7 @@ cme smb -u <USER> -H <HASH> --sam <IP>/<MASK>
 
 **Note :** _l'utilisateur doit disposer des droits "Administrateur local"._
 
-## Signatures SMB
+### Signatures SMB
 
 ```
 cme smb <IP>

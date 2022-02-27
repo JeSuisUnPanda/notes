@@ -1,6 +1,6 @@
 # PE : polkit
 
-## CVE-2021-3560
+### CVE-2021-3560
 
 Vulnérabilité permettant à un attaquant d'élever ses privilèges localement sur de multiples distributions, même les plus récentes.
 
@@ -10,7 +10,7 @@ Cette vulnérabilité est exploitable avec le PoC suivant : [https://github.com/
 
 Comme indiqué dans l'explication du PoC, il peut-être nécessaire de relancer de multiple fois celui-ci car la vulnérabilité repose sur un _timing_ précis.
 
-### Exemple
+#### Exemple
 
 ```
 [dwight@paper ~]$ ./poc.sh 
@@ -46,11 +46,11 @@ uid=0(root) gid=0(root) groups=0(root)
 [root@paper secnigma]# 
 ```
 
-### Source
+#### Source
 
 [https://github.blog/2021-06-10-privilege-escalation-polkit-root-on-linux-with-bug/](https://github.blog/2021-06-10-privilege-escalation-polkit-root-on-linux-with-bug/)
 
-## CVE-2021-4034
+### CVE-2021-4034
 
 Vulnérabilité permettant à un attaquant d'élever ses privilèges localement sur de multiples distributions, même les plus récentes.
 
@@ -58,7 +58,7 @@ Cette vulnérabilité est détectable avec la version du 9/2/2022 de `linpeas` :
 
 Cette vulnérabilité est exploitable avec le PoC suivant : [https://github.com/arthepsy/CVE-2021-4034](https://github.com/arthepsy/CVE-2021-4034)
 
-### Exemple
+#### Exemple
 
 ```
 # gcc poc-pwnkit.c -o poc-pwnkit                                               
