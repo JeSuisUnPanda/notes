@@ -1,5 +1,5 @@
 ---
-description: A finir
+description: Comment casser les anciens hashs NTLM et lesquels sont relayables
 ---
 
 # Protocoles multidiffusion
