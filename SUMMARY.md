@@ -5,7 +5,6 @@
   * [Bloodhound](installation-doutils/bloodhound.md)
   * [CrackMapExec](installation-doutils/crackmapexec.md)
   * [Impacket](installation-doutils/impacket.md)
-  * [Neo4J](installation-doutils/neo4j.md)
   * [Sharphound (Linux)](installation-doutils/sharphound-linux.md)
 * [Cheat Sheet](cheat-sheet/README.md)
   * [docker](cheat-sheet/docker.md)
