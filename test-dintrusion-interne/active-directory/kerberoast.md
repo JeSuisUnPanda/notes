@@ -4,6 +4,8 @@ description: A finir
 
 # Kerberoast
 
+Un utilisateur de l’Active Directory peut demander un TGS pour n’importe quel service. Ainsi, un attaquant peut effectuer des demandes de TGS en indiquant des SPN arbitraires. S'ils existent, un ticket de service (TGS) sera obtenu. Celui-ci contiendra le mot de passe (sous forme de _hash_) du compte exécutant le service. L’attaquant peut, avec cette information, tenter de trouver le mot de passe en clair du compte via une attaque par brute force.
+
 ### Récupération des tickets TGS
 
 ```
@@ -14,7 +16,7 @@ Cette commande va recenser tous les comptes utilisateur (non machine) exécutant
 
 Il n'est pas possible de réaliser de _Pass The Ticket_ avec les TGS.
 
-### Cassage des hashs obtenus
+### Cassage des _hashs_ obtenus
 
 ```
 john --format=krb5tgs --wordlist=passwords_kerb.txt hashes.kerberoast
