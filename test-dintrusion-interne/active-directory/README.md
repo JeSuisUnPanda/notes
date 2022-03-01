@@ -8,3 +8,5 @@
 * SPN : Identifiant de service (`type_du_service/hostname:port/nom_arbitraire`)
 
 ### Kerberos
+
+![Fonctionnement simplifié de Kerberos](../../.gitbook/assets/Kerb.png)
