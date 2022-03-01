@@ -1,6 +1,12 @@
 # Enumération
 
-### Enumération des machines + services (nmap)
+### Enumération des machines
+
+```
+arp-scan <IP>/<MASK> -r 1
+```
+
+### Enumération des services (nmap)
 
 * Scan rapide des 1000 ports les plus communs sur un intervalle d'adresses IP :
 

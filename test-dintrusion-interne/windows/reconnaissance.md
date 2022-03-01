@@ -45,3 +45,9 @@ msf > use auxiliary/scanner/rdp/cve_2019_0708_bluekeep
 ```
 python3 zerologon_tester.py <DC> <IP-DC>
 ```
+
+### Rechercher un mot dans des fichiers
+
+```
+findstr /S /M /<PATH>:"<MOT>" *
+```
