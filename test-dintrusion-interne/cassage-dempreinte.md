@@ -1,4 +1,4 @@
-# john
+# Cassage d'empreinte
 
 ### LM <a href="#9330" id="9330"></a>
 
@@ -8,16 +8,18 @@ Présent dans la base SAM ou NTDS.
 
 ```
 john --format=lm hash.txt
+hashcat -m 3000 -a 3 hash.txt
 ```
 
 ### NTHash (A.K.A. NTLM) <a href="#b5a5" id="b5a5"></a>
 
-Présent dans la base SAM ou NTDS.
+Présent dans la base SAM ou NTDS
 
 **Exemple :** `B4B9B02E6F09A9BD760F388B67351E2B`
 
 ```
 john --format=nt hash.txt
+hashcat -m 1000 -a 3 hash.txt
 ```
 
 ### NTLMv1 (A.K.A. Net-NTLMv1) <a href="#1070" id="1070"></a>
@@ -28,6 +30,7 @@ Obtenu avec Responder.
 
 ```
 john --format=netntlm hash.txt
+hashcat -m 5500 -a 3 hash.txt
 ```
 
 ### NTLMv2 (A.K.A. Net-NTLMv2) <a href="#4fef" id="4fef"></a>
@@ -38,6 +41,7 @@ Obtenu avec Responder.
 
 ```
 john --format=netntlmv2 hash.txt
+hashcat -m 5600 -a 3 hash.txt
 ```
 
 ### Clé GPG&#x20;
