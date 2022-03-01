@@ -27,10 +27,10 @@
 
 * [Méthodologie](test-dintrusion-interne/methodologie.md)
 * [Active Directory](test-dintrusion-interne/active-directory/README.md)
-  * [Reconnaissance](test-dintrusion-interne/active-directory/reconnaissance.md)
   * [ASREP](test-dintrusion-interne/active-directory/asrep.md)
   * [DC SYNC](test-dintrusion-interne/active-directory/dc-sync.md)
   * [Kerberoast](test-dintrusion-interne/active-directory/kerberoast.md)
+  * [Reconnaissance](test-dintrusion-interne/active-directory/reconnaissance.md)
 * [Cassage d'empreinte](test-dintrusion-interne/cassage-dempreinte.md)
 * [Linux](test-dintrusion-interne/linux/README.md)
   * [PE : polkit](test-dintrusion-interne/linux/pe-polkit.md)

