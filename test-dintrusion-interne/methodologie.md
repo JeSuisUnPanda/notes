@@ -20,7 +20,7 @@
 
 ### Exploitation de vulnérabilités
 
-* [ ] NTLM Relay ([`responder`](windows/ntlm-relay.md)`,`[`impacket`](windows/ntlm-relay.md))
+* [ ] NTLM Relay ([`responder`](active-directory/ntlm-relay.md)`,`[`impacket`](active-directory/ntlm-relay.md))
 * [ ] Pass The Hash ([`cme`](windows/pass-the-hash.md))
 * [ ] ASREPROAST (`bloodhound,`[`impacket`](active-directory/asrep.md))
 * [ ] Kerberoast ([`impacket`](active-directory/kerberoast.md))

