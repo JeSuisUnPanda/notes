@@ -24,8 +24,6 @@ password=*)(&
 (&(sn=administrator)(password=M*))   : OK
 (&(sn=administrator)(password=MA*))  : KO
 (&(sn=administrator)(password=MB*))  : KO
-
-# 
 ```
 
 #### Exemple de code python pour récupérer un mot de passe
