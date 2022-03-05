@@ -68,5 +68,6 @@
   * [Wordpress](test-dintrusion-externe/enumeration/wordpress.md)
 * [Injection](test-dintrusion-externe/injection/README.md)
   * [Injections de commandes](test-dintrusion-externe/injection/injections-de-commandes.md)
+  * [File Upload](test-dintrusion-externe/injection/file-upload.md)
   * [LDAP](test-dintrusion-externe/injection/ldap.md)
   * [SSTI](test-dintrusion-externe/injection/ssti.md)
