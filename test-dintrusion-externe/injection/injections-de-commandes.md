@@ -1,5 +1,11 @@
 # Injections de commandes
 
+### Basiques
+
+```
+; <CMD>
+```
+
 ### Go
 
 ```
