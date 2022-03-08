@@ -1,5 +1,9 @@
 # Cassage d'empreinte
 
+#### TIPS :&#x20;
+
+* Il est possible de voir les mots de passe déjà cassés grâce à l'outil `john` avec l'option `--show`.
+
 ### LM <a href="#9330" id="9330"></a>
 
 Présent dans la base SAM ou NTDS.
@@ -58,7 +62,3 @@ john --wordlist=<FILE> hash.john
 ```
 john --wordlist=<FILE> hash.john
 ```
-
-#### TIPS :&#x20;
-
-* Il est possible de voir les mots de passe déjà cassés avec l'option `--show`.
