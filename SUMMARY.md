@@ -22,6 +22,7 @@
   * [sharphound (linux)](cheat-sheet/sharphound-linux.md)
   * [ssh](cheat-sheet/ssh.md)
   * [telnet](cheat-sheet/telnet.md)
+  * [wget](cheat-sheet/wget.md)
 
 ## Test d'intrusion interne
 

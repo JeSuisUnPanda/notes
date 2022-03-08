@@ -50,3 +50,11 @@ hashcat -m 5600 -a 3 hash.txt
 gpg2john key.priv > hash.john
 john --wordlist=<FILE> hash.john
 ```
+
+### Mot de passe Linux (/etc/shadows)
+
+**Exemple :** `$6$xyz$/pdZy4hazXmqu1t0TACitLlKZPD4bFyRUw6ycXiOTdf4kcnkmpgmtg9zUpEE8rG9KtOWwX7kp1Gl96NCGbDk60`
+
+```
+john --wordlist=<FILE> hash.john
+```
