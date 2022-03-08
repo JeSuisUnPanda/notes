@@ -58,3 +58,7 @@ john --wordlist=<FILE> hash.john
 ```
 john --wordlist=<FILE> hash.john
 ```
+
+#### TIPS :&#x20;
+
+* Il est possible de voir les mots de passe déjà cassés avec l'option `--show`.
