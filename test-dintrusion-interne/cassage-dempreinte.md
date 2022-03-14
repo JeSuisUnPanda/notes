@@ -94,6 +94,13 @@ La règle utilisée : [https://github.com/NotSoSecure/password\_cracking\_rules/
 
 _**Note :** Appliquer une règle L33T en plus peut s'avérer utile._
 
+```
+f = open("dico.txt", "r")
+s = ""
+for pwd in f:
+    print(pwd.replace('a','4').replace('e','3').replace('s','5').replace('o','0')
+```
+
 #### TIPS :&#x20;
 
 * Il est possible de voir les mots de passe déjà cassés grâce à l'outil `john` avec l'option `--show`.
