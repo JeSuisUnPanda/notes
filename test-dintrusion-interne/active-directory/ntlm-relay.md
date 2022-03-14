@@ -18,6 +18,8 @@ Les _hashs_ NT utilisé dans la version 1 et 2 du protocole NTLM (a.k.a Net-NTLM
 
 Pour pouvoir relayer, il faut que les services SMB et HTTP de Responder soit stoppés (fichier de configuration Responder.conf). Ceci permet le bon fonctionnement de `ntlmrelayx`.
 
+_**Note :** les deux scripts doivent être exécutés dans le même contexte, pas dans 2 conteneurs Docker différents._
+
 ```
 # Terminal 1 (dans le docker impacket)
 Dumper la base SAM : ntlmrelayx -tf <TARGETS.txt>

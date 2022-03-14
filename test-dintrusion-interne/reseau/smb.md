@@ -52,6 +52,12 @@ smbclient \\\\<IP>\\<SHARE> -U "<DOMAIN.LOCAL>/<USER>%<PASS>"
 
 **Note :** _il est également possible d'accéder aux partages via l'explorateur de fichier avec le protocole `smb://`._
 
+L'outil `snaffler` peut être utilisé pour automatiser la lecture des partages réseau. De plus, il remonte des informations potentiellement sensibles :&#x20;
+
+```
+Snaffler.exe -s -o Snaffler-result.txt
+```
+
 ### Exécuter des commandes système
 
 Il est possible d'utiliser l'option `-x` de l'outil `smbmap` pour exécuter des commandes système.

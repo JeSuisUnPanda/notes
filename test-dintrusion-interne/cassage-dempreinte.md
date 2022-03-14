@@ -1,9 +1,5 @@
 # Cassage d'empreinte
 
-#### TIPS :&#x20;
-
-* Il est possible de voir les mots de passe déjà cassés grâce à l'outil `john` avec l'option `--show`.
-
 ### LM <a href="#9330" id="9330"></a>
 
 Présent dans la base SAM ou NTDS.
@@ -62,3 +58,42 @@ john --wordlist=<FILE> hash.john
 ```
 john --wordlist=<FILE> hash.john
 ```
+
+### Fichier Keepass
+
+```
+keepass2john <FILE.kdbx>
+```
+
+### Masques
+
+Il est possible d'utiliser des masques pour définir des _pattern_ de mot de passe lors d'une tentative de cassage de _hash_ :&#x20;
+
+```
+# Ajouter deux chiffres au mot PASSWORD
+john --mask=PASWORD?d?d <FILE.TXT>
+
+#
+?d = chiffre
+?u = majuscule
+?l = minuscule
+?s = caractère spécial
+?a = tous les caractères
+[x-y] = un intervalle entre x et y 
+```
+
+### Faire un dictionnaire personnalisé
+
+Mettre quelques mot dans un fichier.
+
+```
+hashcat --force <WORD-FILE.TXT> -r rules.rule --stdout > <DICO.TXT>
+```
+
+La règle utilisée : [https://github.com/NotSoSecure/password\_cracking\_rules/](https://github.com/NotSoSecure/password\_cracking\_rules/blob/master/OneRuleToRuleThemAll.rule)
+
+_**Note :** Appliquer une règle L33T en plus peut s'avérer utile._
+
+#### TIPS :&#x20;
+
+* Il est possible de voir les mots de passe déjà cassés grâce à l'outil `john` avec l'option `--show`.

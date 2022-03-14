@@ -4,6 +4,7 @@
 
 ```
 rdesktop <IP>
+xfreerdp /u:<USER> /v:<IP>
 ```
 
 #### Erreur connue
@@ -19,7 +20,7 @@ Failed to connect, CredSSP required by server (check if server disabled old TLS 
 sudo apt-get install krb5-user
 ```
 
-**Note :** _lors de l'installation, mettre le domaine en MAJUSCULE et l'adresse IP du contrôleur de domaine._
+**Note :** _lors de l'installation, mettre le domaine en MAJUSCULE et l'adresse IP du contrôleur de domaine. Dans la commande `kinit` le domaine doit également être en majuscule._
 
 ```
 kinit <USER>@<DOMAIN.LOCAL>
