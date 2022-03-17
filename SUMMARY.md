@@ -38,6 +38,7 @@
   * [PE : polkit](test-dintrusion-interne/linux/pe-polkit.md)
   * [PE : screen (SUID)](test-dintrusion-interne/linux/pe-screen-suid.md)
   * [PE : sudo](test-dintrusion-interne/linux/pe-sudo.md)
+  * [Reconnaissance](test-dintrusion-interne/linux/reconnaissance.md)
   * [SUID executable core dump](test-dintrusion-interne/linux/suid-executable-core-dump.md)
 * [Réseau](test-dintrusion-interne/reseau/README.md)
   * [Ecoute](test-dintrusion-interne/reseau/ecoute.md)
@@ -74,3 +75,8 @@
   * [LDAP](test-dintrusion-externe/injection/ldap.md)
   * [Local File Inclusion](test-dintrusion-externe/injection/local-file-inclusion.md)
   * [SSTI](test-dintrusion-externe/injection/ssti.md)
+
+## Android
+
+* [Enumération](android/enumeration.md)
+* [Créer un APK](android/creer-un-apk.md)
