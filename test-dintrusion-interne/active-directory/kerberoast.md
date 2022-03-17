@@ -1,7 +1,3 @@
----
-description: A finir
----
-
 # Kerberoast
 
 Un utilisateur de l’Active Directory peut demander un TGS pour n’importe quel service. Ainsi, un attaquant peut effectuer des demandes de TGS en indiquant des SPN arbitraires. S'ils existent, un ticket de service (TGS) sera obtenu. Celui-ci contiendra le mot de passe (sous forme de _hash_) du compte exécutant le service. L’attaquant peut, avec cette information, tenter de trouver le mot de passe en clair du compte via une attaque par brute force.
@@ -12,7 +8,7 @@ Un utilisateur de l’Active Directory peut demander un TGS pour n’importe que
 GetUsersSPN.py -request -dc-ip <IP-DC> <domain.local>/<USER> -outputfile impacket_TGS_<IP>.txt
 ```
 
-Cette commande va recenser tous les comptes utilisateur (non machine) exécutant un service pour émettre une demande de ticket TGS en leur nom. Ces tickets seront ensuite affichés.
+Cette commande va recenser tous les comptes utilisateur (non machine) exécutant un service (attribut `ServicePrincipalName` non vide) pour émettre une demande de ticket TGS en leur nom. Ces tickets seront ensuite affichés.
 
 Il n'est pas possible de réaliser de _Pass The Ticket_ avec les TGS.
 
