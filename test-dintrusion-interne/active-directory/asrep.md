@@ -1,7 +1,3 @@
----
-description: A finir
----
-
 # ASREP
 
 Lors d’une demande de TGT, l’utilisateur doit, par défaut, s’authentifier auprès du KDC pour que celui-ci lui réponde. Il arrive que cette authentification ne soit pas toujours demandée. Si c'est le cas, n’importe qui peut demander un TGT (contenant le mot de passe sous forme de _hash_) au nom d’un de ces comptes.

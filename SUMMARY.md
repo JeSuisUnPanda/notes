@@ -6,7 +6,7 @@
   * [CrackMapExec](installation-doutils/crackmapexec.md)
   * [Impacket](installation-doutils/impacket.md)
   * [Sharphound (Linux)](installation-doutils/sharphound-linux.md)
-* [Cheat Sheet](cheat-sheet/README.md)
+* [Cheat Sheet (Linux)](cheat-sheet/README.md)
   * [docker](cheat-sheet/docker.md)
   * [find](cheat-sheet/find.md)
   * [git](cheat-sheet/git.md)
@@ -21,8 +21,13 @@
   * [route](cheat-sheet/route.md)
   * [sharphound (linux)](cheat-sheet/sharphound-linux.md)
   * [ssh](cheat-sheet/ssh.md)
+  * [svn](cheat-sheet/svn.md)
   * [telnet](cheat-sheet/telnet.md)
   * [wget](cheat-sheet/wget.md)
+* [Cheat Sheet (Windows)](cheat-sheet-windows/README.md)
+  * [findstr](cheat-sheet-windows/findstr.md)
+  * [runas](cheat-sheet-windows/runas.md)
+  * [wmic](cheat-sheet-windows/wmic.md)
 
 ## Test d'intrusion interne
 
@@ -33,7 +38,7 @@
   * [Kerberoast](test-dintrusion-interne/active-directory/kerberoast.md)
   * [NTLM Relay](test-dintrusion-interne/active-directory/ntlm-relay.md)
   * [Reconnaissance](test-dintrusion-interne/active-directory/reconnaissance.md)
-* [Cassage d'empreinte](test-dintrusion-interne/cassage-dempreinte.md)
+* [Cassage d'empreinte/MDP](test-dintrusion-interne/cassage-dempreinte.md)
 * [Linux](test-dintrusion-interne/linux/README.md)
   * [PE : polkit](test-dintrusion-interne/linux/pe-polkit.md)
   * [PE : screen (SUID)](test-dintrusion-interne/linux/pe-screen-suid.md)
@@ -50,6 +55,7 @@
   * [RPC](test-dintrusion-interne/reseau/rpc.md)
   * [SMB](test-dintrusion-interne/reseau/smb.md)
   * [WiFi](test-dintrusion-interne/reseau/wifi.md)
+  * [WinRM](test-dintrusion-interne/reseau/winrm.md)
 * [Windows](test-dintrusion-interne/windows/README.md)
   * [Base SAM](test-dintrusion-interne/windows/base-sam.md)
   * [Clé USB Bootable](test-dintrusion-interne/windows/cle-usb-bootable.md)
@@ -80,4 +86,3 @@
 
 * [Enumération](android/enumeration.md)
 * [Créer un APK](android/creer-un-apk.md)
-* [Vrac](android/vrac.md)

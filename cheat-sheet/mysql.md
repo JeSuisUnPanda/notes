@@ -3,7 +3,8 @@
 * Réaliser une connexion :
 
 ```
-mysql -u user -p
+mysql -u <USER> -p
+mysql --host=<IP> --user=<USER> --password=<PASSWORD <DB> -e "<MYSQL_COMMAND"
 ```
 
 * Lister les bases de données :

@@ -1,4 +1,4 @@
-# Cassage d'empreinte
+# Cassage d'empreinte/MDP
 
 ### LM <a href="#9330" id="9330"></a>
 
@@ -48,6 +48,13 @@ hashcat -m 5600 -a 3 hash.txt
 
 ```
 gpg2john key.priv > hash.john
+john --wordlist=<FILE> hash.john
+```
+
+### Clé SSH
+
+```
+ssh2john.py id_rsa > hash.john
 john --wordlist=<FILE> hash.john
 ```
 
