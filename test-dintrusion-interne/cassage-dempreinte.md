@@ -99,13 +99,13 @@ hashcat --force <WORD-FILE.TXT> -r rules.rule --stdout > <DICO.TXT>
 
 La règle utilisée : [https://github.com/NotSoSecure/password\_cracking\_rules/](https://github.com/NotSoSecure/password\_cracking\_rules/blob/master/OneRuleToRuleThemAll.rule)
 
-_**Note :** Appliquer une règle L33T en plus peut s'avérer utile._
+_**Note :** Appliquer une règle L33T en plus peut s'avérer utile. (penser aux majuscule également)_
 
 ```
 f = open("dico.txt", "r")
 s = ""
 for pwd in f:
-    print(pwd.replace('a','4').replace('e','3').replace('s','5').replace('o','0')
+    print(pwd.replace('a','4').replace('e','3').replace('s','5').replace('o','0'))
 ```
 
 #### TIPS :&#x20;
