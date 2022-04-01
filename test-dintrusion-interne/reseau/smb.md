@@ -2,7 +2,7 @@
 
 ### Enumération des partages réseau
 
-* Lister les partages réseau d'une machine de manière anonyme :
+* Lister les partages réseau d'une machine avec une session nulle (ni utilisateur, ni de mot de passe) :
 
 ```
 smbmap -H <IP>
@@ -12,7 +12,14 @@ smbmap -d <DOMAIN.LOCAL> -u '' -p '' -H <IP>
 cme smb <IP>/<MASK> -u '' -p '' --shares
 ```
 
-**Note :** _lors d'une session anonyme, mettre une lettre dans le champ `"u"` peut afficher davantage de partages._
+* Lister les partages réseau d'une machine de manière anonyme (utilisateur anonyme avec un mot de passe vide) :
+
+```
+smbmap -u 'anonyme' -p '' -H <IP>
+smbmap -d <DOMAIN.LOCAL> -u 'anonyme' -p '' -H <IP>
+
+cme smb <IP>/<MASK> -u 'anonyme' -p '' --shares
+```
 
 * Lister les partages réseau d'une machine avec des identifiants :
 
