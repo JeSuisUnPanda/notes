@@ -5,27 +5,24 @@
 * Lister les partages réseau d'une machine de manière anonyme :
 
 ```
+smbmap -H <IP>
+smbmap -u '' -p '' -H <IP>
 smbmap -d <DOMAIN.LOCAL> -u '' -p '' -H <IP>
+
+cme smb <IP>/<MASK> -u '' -p '' --shares
 ```
 
-```
-smbmap -H <IP>
-```
+**Note :** _lors d'une session anonyme, mettre une lettre dans le champ `"u"` peut afficher davantage de partages._
 
 * Lister les partages réseau d'une machine avec des identifiants :
 
 ```
+# Avec un mot de passe
 smbmap -u "username" -p "password" -H <IP>
-```
-
-```
-smbmap -u "username" -p "<NT>:<LM>" -H <IP>
-```
-
-* Lister les partages réseau de machines hors d'un domaine :
-
-```
 cme smb <IP>/<MASK> -u <USER> -p <PASS> --shares
+
+# Avec un hash
+smbmap -u "username" -p "<NT>:<LM>" -H <IP>
 ```
 
 * Lister les partages réseau de machines présentent au sein d'un domaine :
@@ -38,9 +35,6 @@ smbclient -L //<IP> -U "<DOMAIN.LOCAL>/<USERS%<PASS>"
 
 ```
 smbmap -R <REPERTOIRE> -H <IP> -A <file> -q
-```
-
-```
 smbclient \\\\<IP>\\<SHARE> -U "<DOMAIN.LOCAL>/<USER>%<PASS>"
 ```
 
