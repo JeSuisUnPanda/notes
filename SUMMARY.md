@@ -64,7 +64,7 @@
   * [Clé USB Bootable](test-dintrusion-interne/windows/cle-usb-bootable.md)
   * [LPE](test-dintrusion-interne/windows/lpe/README.md)
     * [Historique de commande](test-dintrusion-interne/windows/lpe/historique-de-commande.md)
-  * [LAPS](test-dintrusion-interne/windows/laps.md)
+    * [LAPS](test-dintrusion-interne/windows/lpe/laps.md)
   * [Mimikatz](test-dintrusion-interne/windows/mimikatz.md)
   * [Pass The Hash](test-dintrusion-interne/windows/pass-the-hash.md)
   * [Password Spraying](test-dintrusion-interne/windows/password-spraying.md)

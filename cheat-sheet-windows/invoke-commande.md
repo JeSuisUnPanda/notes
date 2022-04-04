@@ -1,5 +1,5 @@
 ---
-description: Runs commands on local and remote computers
+description: runas vs invoke-command ???
 ---
 
 # invoke-commande
