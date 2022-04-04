@@ -63,13 +63,40 @@ john --wordlist=<FILE> hash.john
 **Exemple :** `$6$xyz$/pdZy4hazXmqu1t0TACitLlKZPD4bFyRUw6ycXiOTdf4kcnkmpgmtg9zUpEE8rG9KtOWwX7kp1Gl96NCGbDk60`
 
 ```
-john --wordlist=<FILE> hash.john
+john --wordlist=<FILE> shadows.hash
 ```
 
 ### Fichier Keepass
 
 ```
-keepass2john <FILE.kdbx>
+keepass2john <FILE.kdbx> > kdbx.hash
+john --wordlist=<FILE> kdbx.hash
+```
+
+### Fichier PFX
+
+```
+pfx2john <FILE.pfx> > pfx.hash
+john --format=pfx --wordlist=<FILE> pfx.hash
+```
+
+_**Note :** Attention il se peut que des b' se baladent dans le hash et perturbent le cassage. Il faut les supprimer manuellement._
+
+Une fois déchiffré, il est possible d'obtenir un certificat et une clé privée avec les commandes suivantes (le CN équivaut à l'identifiant de l'utilisateur) :&#x20;
+
+```
+openssl pkcs12 -in <FILE.pfx> -nocerts -out <FILE.key>
+openssl pkcs12 -in <FILE.pfx> -clcerts -nokeys -out <FILE.crt>
+openssl rsa -in <FILE.key> -out <FILE-decrypted.key>
+```
+
+### Archive
+
+#### zip
+
+```
+zip2john <FILE.zip> > zip.hash
+john --wordlist=<FILE> zip.hash
 ```
 
 ### Masques

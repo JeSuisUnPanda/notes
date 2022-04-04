@@ -1,5 +1,11 @@
 # SMB
 
+### Enumération des utilisateurs locaux
+
+```
+msf6 auxiliary(scanner/smb/smb_lookupsid)
+```
+
 ### Enumération des partages réseau
 
 * Lister les partages réseau d'une machine avec une session nulle (ni utilisateur, ni de mot de passe) :

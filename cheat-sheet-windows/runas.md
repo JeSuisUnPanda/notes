@@ -1,3 +1,7 @@
+---
+description: runas vs invoke-command ???
+---
+
 # runas
 
 * Exécuter une commande avec les droits d'un autre utilisateur :&#x20;
