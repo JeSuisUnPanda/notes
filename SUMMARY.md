@@ -87,6 +87,7 @@
   * [LDAP](test-dintrusion-externe/injection/ldap.md)
   * [Local File Inclusion](test-dintrusion-externe/injection/local-file-inclusion.md)
   * [SSTI](test-dintrusion-externe/injection/ssti.md)
+* [Web Shell](test-dintrusion-externe/web-shell.md)
 
 ## Android
 
