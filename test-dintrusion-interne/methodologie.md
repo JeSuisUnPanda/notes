@@ -15,7 +15,7 @@
 * [ ] Signature des échanges SMB ([`cme`](reseau/smb.md#signatures-smb))
 * [ ] Mots de passe dans le champ "description" ([`goddi`](active-directory/reconnaissance.md#enumeration-des-objets)`, AdExplorer`)
 * [ ] Politique de mot de passe ([`cme`](active-directory/reconnaissance.md#politique-de-mot-de-passe)`,`[`ldapdomaindump`](active-directory/reconnaissance.md#politique-de-mot-de-passe)`,`[`session Windows`](windows/reconnaissance.md#politique-de-mot-de-passe))
-* [ ] Analyse des applicatifs (serveur web, serveur de base de données, etc.)
+* [ ] Analyse des applicatifs (serveur web \[aquatone], serveur de base de données, etc.)
 * [ ] Sécurité des équipements réseaux
 
 ### Exploitation de vulnérabilités

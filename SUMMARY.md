@@ -97,3 +97,4 @@
 ## Hors sujet
 
 * [Cheat Engine](hors-sujet/cheat-engine.md)
+* [OSINT](hors-sujet/osint.md)
