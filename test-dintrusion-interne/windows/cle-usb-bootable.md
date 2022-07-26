@@ -23,3 +23,7 @@ Redémarrer la machine compromise et ouvrir l'option d'ergonomie. Ajouter un uti
 net user admin password /add
 net localgroup administrators admin /add
 ```
+
+#### TIPS
+
+`chntpw` et `reged`peuvent permettre de changer les clés de registre (désactivation de l'auto logon par exemple \[AutoAdminLogon]).
