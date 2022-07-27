@@ -4,4 +4,11 @@ description: A finir
 
 # Ecoute
 
-* Utiliser l'outil `wireshark` pour réaliser de l'écoute réseau.
+## Wireshark
+
+#### Filtres
+
+* `ip.addr == <IP>` : filtre selon une IP ;
+* `<PROTOCOLE>` : filtre selon un protocole.
+
+Il est possible de faire des combinaisons avec `&&`.
