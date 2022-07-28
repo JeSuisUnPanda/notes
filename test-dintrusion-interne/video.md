@@ -43,3 +43,5 @@ Il est possible de rejoué une séquence vidéo sur un flux multicast. Pour se f
 ```
 sudo tcpreplay -i <INTERFACE> -tK --loop 1000 --duration=10 file.pcapng
 ```
+
+_Note : Est-il possible de forcer la victime à se déconnecter en envoyant des paquets IGMPv2 "leave group" ? (cela permettrait d'éviter la superposition de flux)_
