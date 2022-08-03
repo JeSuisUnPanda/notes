@@ -42,3 +42,7 @@ description: https://app.mindmup.com/
 ## Enseigne
 
 * Google (ajouter "gmail" ou "mail" pour obtenir une adresse mail)
+
+## Sites Web
+
+* Wayback Machine : permet de voir la version d'un site web à une date donnée.
