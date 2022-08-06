@@ -37,6 +37,10 @@ description: https://app.mindmup.com/
 
 * Google : (ajouter des guillemets pour avoir des résultats précis, ajouter "gmail" ou "mail" pour obtenir des adresses mail)
 
+#### Pseudo
+
+* whatsmyname : Vérifie un même pseudo sur un ensemble de réseau sociaux/sites web.
+
 #### Adresse mail
 
 * Epios
