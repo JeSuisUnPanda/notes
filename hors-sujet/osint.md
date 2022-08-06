@@ -31,18 +31,30 @@ description: https://app.mindmup.com/
 
 * [https://www.tiktok.com/](https://www.tiktok.com/)@\<user>
 
-## Nom
+## Personne (morale ou physique)
 
-* Google (ajouter des guillemets pour avoir des résultats précis)
+#### Nom
 
-## Adresse mail
+* Google : (ajouter des guillemets pour avoir des résultats précis, ajouter "gmail" ou "mail" pour obtenir des adresses mail)
+
+#### Adresse mail
 
 * Epios
 
-## Enseigne
-
-* Google (ajouter "gmail" ou "mail" pour obtenir une adresse mail)
-
 ## Sites Web
 
-* Wayback Machine : permet de voir la version d'un site web à une date donnée.
+* Wayback Machine : Permet de voir la version d'un site web à une date donnée.
+* Google dorks (inurl, site)
+
+## Geosint
+
+#### Carte
+
+* Google Maps : Carte du monde
+* Peakfinder : Relief géographique (sommets des montages)
+
+#### Avion
+
+* flightaware : Historique des vols (sur 3 mois)
+* flightradar24
+* airportia
