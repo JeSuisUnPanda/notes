@@ -31,7 +31,7 @@ description: https://app.mindmup.com/
 #### [Instagram](https://www.instagram.com/)
 
 * [https://www.instagram.com/](https://www.instagram.com/)\<user>
-* [instahunt](https://instahunt.co/) : Post en fonction d'un lieu
+* [instahunt](https://instahunt.co/) : Localisation des comptes Instragram/Facebook proche d'un lieu
 
 #### [TikTok](https://www.tiktok.com/)
 
