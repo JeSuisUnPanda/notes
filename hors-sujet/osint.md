@@ -10,6 +10,7 @@ description: https://app.mindmup.com/
 * Google Lens : Utilisation de Google Image depuis une capture prise via le navigateur
 * [Bing image](https://www.bing.com/) : Informations diverses + proposition de ressemblances sur les visages
 * [Pimeyes ](https://pimeyes.com/): Analyse faciale
+* [app.remini.ai](https://app.remini.ai/) : Enlève le flou d'un visage
 * [Jimpl](https://jimpl.com/) : Métadatas
 
 ## Réseaux sociaux
@@ -36,6 +37,8 @@ description: https://app.mindmup.com/
 * [https://www.tiktok.com/](https://www.tiktok.com/)@\<user>
 
 ## Personne (morale ou physique)
+
+* [rootssearch.io](https://www.rootssearch.io/search) : Généralité
 
 #### Nom
 
