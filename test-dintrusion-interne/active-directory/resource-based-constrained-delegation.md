@@ -15,10 +15,12 @@ _**Note :** Cette attaque est possible si un utilisateur dispose_
 
 #### Connexion à une machine du domaine
 
-<pre><code><strong>$ evil-winrm -u "&#x3C;USER>" -p '&#x3C;PASSWORD' -i &#x3C;IP-MACHINE-DOMAINE> -s /home/kali/tools/Conditionsme code
-</strong>#>PowerView.ps1
+```
+$ evil-winrm -u "<USER>" -p '<PASSWORD' -i <IP-MACHINE-DOMAINE> -s /home/kali/tools/
+#>PowerView.ps1
 #>Powermad.ps1
-#>upload Rubeus.exe</code></pre>
+#>upload Rubeus.exe
+```
 
 #### Conditions
 
