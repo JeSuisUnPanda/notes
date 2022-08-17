@@ -29,6 +29,7 @@
   * [invoke-commande](cheat-sheet-windows/invoke-commande.md)
   * [net](cheat-sheet-windows/net.md)
   * [runas](cheat-sheet-windows/runas.md)
+  * [type](cheat-sheet-windows/type.md)
   * [wmic](cheat-sheet-windows/wmic.md)
 
 ## Test d'intrusion interne

