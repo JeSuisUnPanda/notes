@@ -15,6 +15,8 @@ description: https://app.mindmup.com/
 
 ## Réseaux sociaux
 
+* [social-geo-lens](https://www.osintcombine.com/social-geo-lens) : Posts géolocalisés sur les réseaux sociaux
+
 #### [Facebook](https://www.facebook.com/)
 
 * Photos
@@ -37,7 +39,7 @@ description: https://app.mindmup.com/
 
 * [https://www.tiktok.com/](https://www.tiktok.com/)@\<user>
 
-## Personne (morale ou physique)
+## Personne
 
 * [rootssearch.io](https://www.rootssearch.io/search) : Généralité
 
@@ -58,9 +60,13 @@ description: https://app.mindmup.com/
 
 * [app.dvf.etalab.gouv.fr](https://app.dvf.etalab.gouv.fr/) : Prix et date de vente d'un bien immobilier
 
+## Entreprise
+
+* [societe.ninja](https://www.societe.ninja/) : Généralité
+
 ## Sites Web
 
-* [Wayback Machine](https://archive.org/web/) : Permet de voir la version d'un site web à une date donnée
+* [Wayback Machine](https://archive.org/web/) et [archive.ph](https://archive.ph/) : Permet de voir la version d'un site web à une date donnée
 * Google dorks (inurl, site)
 
 ## Geosint
@@ -69,6 +75,7 @@ description: https://app.mindmup.com/
 
 * [Google Maps](https://www.google.fr/maps) : Carte du monde
 * [Peakfinder ](https://www.peakfinder.org/): Relief géographique (sommets des montages)
+* [overpass-turbo](https://overpass-turbo.eu/) : Recherche automatisé d'un lieu selon des paramètres (bar, croisements de routes, restaurants, etc.)
 
 #### Avion
 
