@@ -1,11 +1,5 @@
 # Reconnaissance
 
-### Version de l'OS
-
-```
-uname -a
-```
-
 ### Elévation de privilège locale
 
 ```
