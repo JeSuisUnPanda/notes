@@ -7,6 +7,7 @@
 ```
 https://github.com/xiaoxiaoleo/CVE-2009-2698 #Binaire
 https://github.com/pythonmaster41/Go-For-OSCP/blob/master/Exploits/9545.c #Versions vulnérables
+gcc -m32 -Wall -Wl,--hash-style=both 9542.c -o 9542 #Compilation (-m32 important)
 ```
 
 ## Windows
