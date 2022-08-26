@@ -2,7 +2,7 @@
 
 ## Linux
 
-#### CVE-2009-2698 (Linux Kernel < 2.6.19 (x86/x64) - 'udp\_sendmsg') - LPE
+#### CVE-2009-2698 (Linux Kernel < 2.6.19 (x86/x64) - 'udp\_sendmsg') - LPE - ROOT
 
 ```
 https://github.com/xiaoxiaoleo/CVE-2009-2698 #Binaire
@@ -11,7 +11,7 @@ https://github.com/pythonmaster41/Go-For-OSCP/blob/master/Exploits/9545.c #Versi
 
 ## Windows
 
-#### MS08-067 (SMB) - RCE
+#### MS08-067 (SMB) - RCE - SYSTEM
 
 ```
 https://github.com/Agent-Tiro/HackTheBoxScripts/blob/master/Python3-MS08-067.py

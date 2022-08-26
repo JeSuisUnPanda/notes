@@ -1,6 +1,12 @@
 # Reconnaissance
 
-### Automatisée
+### Version de l'OS
+
+```
+uname -a
+```
+
+### Elévation de privilège locale
 
 ```
 # Analyse statique du système
@@ -9,7 +15,3 @@
 # Analyse dynamique du système (permet de voir les tâches planifiées d'autre utilisateurs)
 /bin/bash pspy
 ```
-
-### Manuelle
-
-* Récupération de la version : `uname -a`
