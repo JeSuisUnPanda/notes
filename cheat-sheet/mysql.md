@@ -7,6 +7,12 @@ mysql -u <USER> -p
 mysql --host=<IP> --user=<USER> --password=<PASSWORD <DB> -e "<MYSQL_COMMAND"
 ```
 
+* Réaliser une commande en une ligne :&#x20;
+
+```
+mysql -u <USER> -p<PASSWORD> -D <DB> -e "<CMD>" > <FILE-OUTPUT>
+```
+
 * Lister les bases de données :
 
 ```

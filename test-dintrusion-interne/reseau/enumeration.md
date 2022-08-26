@@ -30,12 +30,15 @@ nmap -sU -sV --open <IP>/<MASK>
 
 ```
 nmap --script <SCRIPT> -p <PORT> <IP>/<MASK>
+nmap --script vuln <IP> #Test de nombreuses vulnérabilités.
 ```
 
 #### TIPS (nmap)
 
 * Utiliser l'option `-Pn` de `nmap` pour les scans sur les machines Windows.
 * Utiliser l'option `-p-` de `nmap` pour scanner tous les ports.
+* Utiliser l'option `-A` de `nmap` pour avoir davantage d'information.
+* Utiliser l'option `-O` de `nmap` pour avoir des informations sur le système d'exploitation.
 
 ### Enumération des versions d'OS Windows
 
