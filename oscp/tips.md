@@ -7,3 +7,7 @@
 ### PE
 
 * [ ] Regarder la version de l'OS : `uname -a`
+
+### Généralités
+
+* Rechercher les versions avec 'site:github.com' ou 'site:exploit-db.com'.
