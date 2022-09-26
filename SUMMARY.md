@@ -68,6 +68,7 @@
   * [LPE](test-dintrusion-interne/windows/lpe/README.md)
     * [Historique de commande](test-dintrusion-interne/windows/lpe/historique-de-commande.md)
     * [LAPS](test-dintrusion-interne/windows/lpe/laps.md)
+    * [SeImpersonatePrivilege](test-dintrusion-interne/windows/lpe/seimpersonateprivilege.md)
   * [Mimikatz](test-dintrusion-interne/windows/mimikatz.md)
   * [Pass The Hash](test-dintrusion-interne/windows/pass-the-hash.md)
   * [Password Spraying](test-dintrusion-interne/windows/password-spraying.md)

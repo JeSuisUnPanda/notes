@@ -6,7 +6,7 @@
 
 ### Shell
 
-* [ ] Quand un reverse-shell ne parviens pas à se connecter à la machine d'attaque, essayer des ports classiques.
+* [ ] Quand un _reverse-shell_ ne parviens pas à se connecter à la machine d'attaque, essayer des ports classiques.
 
 ### PE
 
@@ -16,7 +16,8 @@
 
 #### Windows
 
-* [ ] Analyser les privilèges : `whoami /priv` -> `SeChangeNotifyPrivilege` et `SeImpersonatePrivilege` sont `Enabled` = `LPE`
+* [ ] Utiliser `winPEAS.bat` plutôt que `winPEASx86.exe`.
+* [ ] Analyser les privilèges : `whoami /priv` -> `SeChangeNotifyPrivilege` et `SeImpersonatePrivilege` sont `Enabled` = `LPE`.
 
 ### Généralités
 
