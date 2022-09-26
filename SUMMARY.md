@@ -25,6 +25,7 @@
   * [telnet](cheat-sheet/telnet.md)
   * [wget](cheat-sheet/wget.md)
 * [Cheat Sheet (Windows)](cheat-sheet-windows/README.md)
+  * [certutil.exe](cheat-sheet-windows/certutil.exe.md)
   * [findstr](cheat-sheet-windows/findstr.md)
   * [invoke-commande](cheat-sheet-windows/invoke-commande.md)
   * [net](cheat-sheet-windows/net.md)
@@ -90,6 +91,7 @@
   * [File Upload](test-dintrusion-externe/injection/file-upload.md)
   * [LDAP](test-dintrusion-externe/injection/ldap.md)
   * [Local File Inclusion](test-dintrusion-externe/injection/local-file-inclusion.md)
+  * [SQLi](test-dintrusion-externe/injection/sqli.md)
   * [SSTI](test-dintrusion-externe/injection/ssti.md)
 * [Web Shell](test-dintrusion-externe/web-shell.md)
 

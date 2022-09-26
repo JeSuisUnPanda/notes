@@ -10,7 +10,13 @@
 
 ### PE
 
+#### Linux
+
 * [ ] Regarder la version de l'OS : `uname -a`
+
+#### Windows
+
+* [ ] Analyser les privilèges : `whoami /priv` -> `SeChangeNotifyPrivilege` et `SeImpersonatePrivilege` sont `Enabled` = `LPE`
 
 ### Généralités
 

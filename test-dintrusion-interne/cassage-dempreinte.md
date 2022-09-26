@@ -1,5 +1,12 @@
 # Cassage d'empreinte/MDP
 
+### MD5 <a href="#9330" id="9330"></a>
+
+```
+john hash.txt --format=Raw-MD5
+hashcat –m 0 hashes hash.txt
+```
+
 ### LM <a href="#9330" id="9330"></a>
 
 Présent dans la base SAM ou NTDS.
