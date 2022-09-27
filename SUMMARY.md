@@ -45,7 +45,9 @@
   * [Resource-based Constrained Delegation](test-dintrusion-interne/active-directory/resource-based-constrained-delegation.md)
 * [Cassage d'empreinte/MDP](test-dintrusion-interne/cassage-dempreinte.md)
 * [Linux](test-dintrusion-interne/linux/README.md)
+  * [Shell Restreint](test-dintrusion-interne/linux/shell-restreint.md)
   * [LPE](test-dintrusion-interne/linux/lpe/README.md)
+    * [PE : groupe 'docker'](test-dintrusion-interne/linux/lpe/pe-groupe-docker.md)
     * [PE : polkit](test-dintrusion-interne/linux/lpe/pe-polkit.md)
     * [PE : screen (SUID)](test-dintrusion-interne/linux/lpe/pe-screen-suid.md)
     * [PE : sudo](test-dintrusion-interne/linux/lpe/pe-sudo.md)
@@ -81,6 +83,7 @@
 ## Test d'intrusion externe
 
 * [Méthodologie](test-dintrusion-externe/methodologie.md)
+* [Bruteforce](test-dintrusion-externe/bruteforce.md)
 * [Enumération](test-dintrusion-externe/enumeration/README.md)
   * [git](test-dintrusion-externe/enumeration/git.md)
   * [Informations techniques](test-dintrusion-externe/enumeration/informations-techniques.md)

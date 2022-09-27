@@ -12,7 +12,8 @@
 
 #### Linux
 
-* [ ] Regarder la version de l'OS : `uname -a`
+* [ ] Regarder la version de l'OS : `uname -a`.
+* [ ] Regarder les groupes de l'utilisateur : `id` -> groupe `docker` -> `LPE`.
 
 #### Windows
 
@@ -22,3 +23,4 @@
 ### Généralités
 
 * Rechercher les versions avec 'site:github.com' ou 'site:exploit-db.com'.
+* Déposer les fichiers dans `/home` ou `/tmp`.
