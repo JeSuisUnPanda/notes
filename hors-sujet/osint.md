@@ -7,7 +7,7 @@ description: https://app.mindmup.com/
 ## Image
 
 * [Google image](https://images.google.com/) : Informations diverses
-* Google Lens : Utilisation de Google Image depuis une capture prise via le navigateur
+* Google Lens : Utilisation de Google Image depuis une capture prise via le navigateur (OCR + traduction inclus)
 * [Bing image](https://www.bing.com/) : Informations diverses + proposition de ressemblances sur les visages
 * [Pimeyes ](https://pimeyes.com/): Analyse faciale
 * [app.remini.ai](https://app.remini.ai/) : Enlève le flou d'un visage
