@@ -1,5 +1,5 @@
 ---
-description: Permet de télécharger un fichier distant
+description: Permet de télécharger un fichier depuis une machine Windows compromise
 ---
 
 # certutil.exe

@@ -76,6 +76,7 @@
   * [Password Spraying](test-dintrusion-interne/windows/password-spraying.md)
   * [Protocoles multidiffusion](test-dintrusion-interne/windows/protocoles-multidiffusion.md)
   * [Reconnaissance](test-dintrusion-interne/windows/reconnaissance.md)
+  * [Word](test-dintrusion-interne/windows/word.md)
 * [TAP](test-dintrusion-interne/tap.md)
 * [Tunnel](test-dintrusion-interne/tunnel.md)
 * [Vidéo](test-dintrusion-interne/video.md)

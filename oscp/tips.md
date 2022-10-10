@@ -17,8 +17,13 @@
 
 #### Windows
 
-* [ ] Utiliser `winPEAS.bat` plutôt que `winPEASx86.exe`.
+* [ ] Prioriser `winPEAS.exe` plutôt que `winPEASx86.bat`.
 * [ ] Analyser les privilèges : `whoami /priv` -> `SeChangeNotifyPrivilege` et `SeImpersonatePrivilege` sont `Enabled` = `LPE`.
+
+#### AD
+
+* [ ] Essayer des dérivés de mots de passe pour trouver d'autres comptes.
+* [ ] Essayer tous les comptes trouvés sur toutes les machines et sur tous les protocoles/services ouverts.
 
 ### Généralités
 
