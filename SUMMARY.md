@@ -105,6 +105,7 @@
 ## OSCP
 
 * [CVE](oscp/cve.md)
+* [Méthodologie](oscp/methodologie.md)
 * [Reverse-shell](oscp/reverse-shell.md)
 * [TIPS](oscp/tips.md)
 
