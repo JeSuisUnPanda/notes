@@ -43,6 +43,7 @@
   * [NTLM Relay](test-dintrusion-interne/active-directory/ntlm-relay.md)
   * [Reconnaissance](test-dintrusion-interne/active-directory/reconnaissance.md)
   * [Resource-based Constrained Delegation](test-dintrusion-interne/active-directory/resource-based-constrained-delegation.md)
+  * [SharpHound](test-dintrusion-interne/active-directory/sharphound.md)
 * [Cassage d'empreinte/MDP](test-dintrusion-interne/cassage-dempreinte.md)
 * [Linux](test-dintrusion-interne/linux/README.md)
   * [Shell Restreint](test-dintrusion-interne/linux/shell-restreint.md)

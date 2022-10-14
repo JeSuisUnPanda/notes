@@ -3,6 +3,7 @@
 ### Enumération
 
 * [ ] Chercher les CVE associées aux versions des technologies.
+* [ ] Essayer des mots de passe triviaux (possibilité d'ajouter un domaine s'il y en a un).
 
 ### Shell
 
@@ -24,6 +25,7 @@
 
 * [ ] Essayer des dérivés de mots de passe pour trouver d'autres comptes.
 * [ ] Essayer tous les comptes trouvés sur toutes les machines et sur tous les protocoles/services ouverts.
+* [ ] Il est possible de réaliser un SharpHound depuis une machine du domaine (sans avoir à utiliser de compte du domaine)
 
 ### Généralités
 
