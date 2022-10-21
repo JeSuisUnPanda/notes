@@ -76,6 +76,7 @@ description: https://app.mindmup.com/
 * [Google Maps](https://www.google.fr/maps) : Carte du monde
 * [Peakfinder ](https://www.peakfinder.org/): Relief géographique (sommets des montages)
 * [overpass-turbo](https://overpass-turbo.eu/) : Recherche automatisé d'un lieu selon des paramètres (bar, croisements de routes, restaurants, etc.)
+* [draw-circle-tool](https://www.mapdevelopers.com/draw-circle-tool.php) : Dessiner des cercles sur une carte
 
 #### Avion
 
