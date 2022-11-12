@@ -91,3 +91,7 @@ description: https://app.mindmup.com/
 #### Train
 
 * [mobility.portal.geops.io](https://mobility.portal.geops.io/) : Carte du monde avec les emplacements en direct des trains
+
+## Tips
+
+* Utiliser les filtres de recherche avancés quand les sites en proposent.
