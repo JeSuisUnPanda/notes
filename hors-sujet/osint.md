@@ -93,6 +93,10 @@ description: https://app.mindmup.com/
 
 * [mobility.portal.geops.io](https://mobility.portal.geops.io/) : Carte du monde avec les emplacements en direct des trains
 
+## Journaux
+
+* [www.library.illinois.edu/hpnl/newspapers](https://www.library.illinois.edu/hpnl/newspapers/) : Recherche de journaux par années/pays
+
 ## Tips
 
 * Utiliser les filtres de recherche avancés quand les sites en proposent.
