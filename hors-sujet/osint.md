@@ -42,6 +42,7 @@ description: https://app.mindmup.com/
 ## Personne
 
 * [rootssearch.io](https://www.rootssearch.io/search) : Généralité
+* [familysearch.org ](https://www.familysearch.org/en/): Arbre généalogique + informations diverses
 
 #### Nom
 
@@ -95,3 +96,4 @@ description: https://app.mindmup.com/
 ## Tips
 
 * Utiliser les filtres de recherche avancés quand les sites en proposent.
+* Source des articles Wikipédia.
