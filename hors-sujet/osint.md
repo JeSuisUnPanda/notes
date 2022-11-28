@@ -15,8 +15,6 @@ description: https://app.mindmup.com/
 
 ## Réseaux sociaux
 
-* [social-geo-lens](https://www.osintcombine.com/social-geo-lens) : Posts géolocalisés sur les réseaux sociaux
-
 #### [Facebook](https://www.facebook.com/)
 
 * Photos
@@ -28,7 +26,7 @@ description: https://app.mindmup.com/
 
 #### [Twitter](https://twitter.com/)
 
-* [Twitter Dorks](https://twitter.com/search-advanced?lang=fr) : (near:\<VILLE>\[,\<X>km], geocode:\<POINT GPS \[6 décimales]>\[,\<X>km], until:\<DATE>, since:\<DATE>)
+* [Twitter Dorks](https://twitter.com/search-advanced?lang=fr) : geocode:\<POINT GPS \[6 décimales]>,\<X>km until:\<AAAA-MM-JJ> since:\<AAAA-MM-JJ>
 
 #### [Instagram](https://www.instagram.com/)
 
