@@ -73,6 +73,7 @@ description: https://app.mindmup.com/
 #### Carte
 
 * [Google Maps](https://www.google.fr/maps) : Carte du monde
+* [openstreetmap.org](https://www.openstreetmap.org/) : Carte du monde (parfois plus précis sur les adresses)
 * [Peakfinder ](https://www.peakfinder.org/): Relief géographique (sommets des montages)
 * [overpass-turbo](https://overpass-turbo.eu/) : Recherche automatisé d'un lieu selon des paramètres (bar, croisements de routes, restaurants, etc.)
 * [draw-circle-tool](https://www.mapdevelopers.com/draw-circle-tool.php) : Dessiner des cercles sur une carte
@@ -83,6 +84,7 @@ description: https://app.mindmup.com/
 * [flightaware ](https://fr.flightaware.com/): Historique des vols (sur 3 mois)
 * [flightradar24](https://www.flightradar24.com/) : Carte du monde avec les emplacements en direct des avions
 * [airportia](https://www.airportia.com/)
+* [https://airportinfo.live/fr/vol/](https://airportinfo.live/fr/vol/)\[AA000] couplé à Wayback Machine
 
 #### Bateau
 
