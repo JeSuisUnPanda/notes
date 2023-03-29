@@ -39,8 +39,9 @@ description: https://app.mindmup.com/
 
 * [https://www.tiktok.com/](https://www.tiktok.com/)@**\<user>**
 
-Autres
+**Autres**
 
+* [https://www.linkedin.com/in/](https://www.linkedin.com/in/)**\<user>**/
 * https://**\<user>**.skyrock.com/
 
 ## Personne
@@ -54,7 +55,7 @@ Autres
 
 #### Pseudo
 
-* [whatsmyname ](https://whatsmyname.app/): Vérifie un même pseudo sur un ensemble de réseau sociaux/sites web (tester les variantes en minuscule/majuscule et ne trouve pas toujours Facebook)
+* [whatsmyname ](https://whatsmyname.app/): Vérifie un même pseudo sur un ensemble de réseau sociaux/sites web (tester les variantes en minuscule/majuscule)
 
 #### Adresse mail
 
