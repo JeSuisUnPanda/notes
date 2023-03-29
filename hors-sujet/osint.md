@@ -17,6 +17,7 @@ description: https://app.mindmup.com/
 
 #### [Facebook](https://www.facebook.com/)
 
+* [https://www.facebook.com/](https://www.facebook.com/)**\<user>**/
 * Photos
 * Vidéos
 * "A propos"
@@ -26,16 +27,21 @@ description: https://app.mindmup.com/
 
 #### [Twitter](https://twitter.com/)
 
+* [https://twitter.com/](https://twitter.com/)**\<user>**
 * [Twitter Dorks](https://twitter.com/search-advanced?lang=fr) : geocode:\<POINT GPS \[6 décimales]>,\<X>km until:\<AAAA-MM-JJ> since:\<AAAA-MM-JJ>
 
 #### [Instagram](https://www.instagram.com/)
 
-* [https://www.instagram.com/](https://www.instagram.com/)\<user>
+* [https://www.instagram.com/](https://www.instagram.com/)**\<user>**
 * [instahunt](https://instahunt.co/) : Localisation des comptes Instragram/Facebook proche d'un lieu
 
 #### [TikTok](https://www.tiktok.com/)
 
-* [https://www.tiktok.com/](https://www.tiktok.com/)@\<user>
+* [https://www.tiktok.com/](https://www.tiktok.com/)@**\<user>**
+
+Autres
+
+* https://**\<user>**.skyrock.com/
 
 ## Personne
 
@@ -48,7 +54,7 @@ description: https://app.mindmup.com/
 
 #### Pseudo
 
-* [whatsmyname ](https://whatsmyname.app/): Vérifie un même pseudo sur un ensemble de réseau sociaux/sites web
+* [whatsmyname ](https://whatsmyname.app/): Vérifie un même pseudo sur un ensemble de réseau sociaux/sites web (tester les variantes en minuscule/majuscule et ne trouve pas toujours Facebook)
 
 #### Adresse mail
 
