@@ -43,6 +43,7 @@ description: https://app.mindmup.com/
 
 * [https://www.linkedin.com/in/](https://www.linkedin.com/in/)**\<user>**/
 * https://**\<user>**.skyrock.com/
+* [https://map.snapchat.com/](https://map.snapchat.com/) : Storys Snapchat récentes et géolocalisées
 
 ## Personne
 
@@ -80,11 +81,13 @@ description: https://app.mindmup.com/
 #### Carte
 
 * [Google Maps](https://www.google.fr/maps) : Carte du monde
+* [yandex.com/maps](https://yandex.com/maps) : Carte du monde sans zone floue
 * [openstreetmap.org](https://www.openstreetmap.org/) : Carte du monde (parfois plus précis sur les adresses)
 * [Peakfinder ](https://www.peakfinder.org/): Relief géographique (sommets des montages)
 * [overpass-turbo](https://overpass-turbo.eu/) : Recherche automatisé d'un lieu selon des paramètres (bar, croisements de routes, restaurants, etc.)
 * [draw-circle-tool](https://www.mapdevelopers.com/draw-circle-tool.php) : Dessiner des cercles sur une carte
 * [suncalc.net](http://suncalc.net/) : Position du soleil
+* [https://shadowmap.org/fr](https://shadowmap.org/fr) : Carte avec le calcul des ombres sur les bâtiments&#x20;
 
 #### Avion
 
@@ -101,9 +104,15 @@ description: https://app.mindmup.com/
 
 * [mobility.portal.geops.io](https://mobility.portal.geops.io/) : Carte du monde avec les emplacements en direct des trains
 
+#### Autre
+
+* [https://www.wunderground.com/history](https://www.wunderground.com/history) : Historique de météo
+* [https://www.earthcam.com/](https://www.earthcam.com/) : Webcam live
+
 ## Journaux
 
 * [www.library.illinois.edu/hpnl/newspapers](https://www.library.illinois.edu/hpnl/newspapers/) : Recherche de journaux par années/pays
+* [https://search.google.com/test/mobile-friendly?hl=fr](https://search.google.com/test/mobile-friendly?hl=fr) : Permet de voir des articles payants
 
 ## Tips
 
