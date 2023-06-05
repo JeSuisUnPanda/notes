@@ -11,6 +11,7 @@
   * [find](cheat-sheet/find.md)
   * [git](cheat-sheet/git.md)
   * [grep](cheat-sheet/grep.md)
+  * [impacket](cheat-sheet/impacket.md)
   * [influxDB](cheat-sheet/influxdb.md)
   * [ip](cheat-sheet/ip.md)
   * [msfconsole](cheat-sheet/msfconsole.md)
