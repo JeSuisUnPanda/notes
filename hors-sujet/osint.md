@@ -60,8 +60,9 @@ description: https://app.mindmup.com/
 
 #### Adresse mail
 
-* [Epieos](https://epieos.com/)
+* [Epieos](https://epieos.com/) : Permet d'avoir des informations sur une adresse gmail
 * [Ghunt](https://github.com/mxrch/GHunt)
+* [https://osint.industries/](https://osint.industries/) (holele) : Permet de savoir si une adresse est utilisée sur des sites
 
 #### Immobilier
 
