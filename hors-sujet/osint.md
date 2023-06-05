@@ -94,7 +94,7 @@ description: https://app.mindmup.com/
 
 * [flightaware ](https://fr.flightaware.com/): Historique des vols (sur 3 mois)
 * [flightradar24](https://www.flightradar24.com/) : Carte du monde avec les emplacements en direct des avions
-* [airportia](https://www.airportia.com/)
+* [airportia](https://www.airportia.com/) : Historique des vols par compagnie aérienne
 * [https://airportinfo.live/fr/vol/](https://airportinfo.live/fr/vol/)\[AA000] couplé à Wayback Machine
 
 #### Bateau
