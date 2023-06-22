@@ -113,6 +113,9 @@ description: https://app.mindmup.com/
 ## Journaux
 
 * [www.library.illinois.edu/hpnl/newspapers](https://www.library.illinois.edu/hpnl/newspapers/) : Recherche de journaux par années/pays
+* [https://news.google.com/newspapers](https://news.google.com/newspapers) : Archives Google pour les journaux
+* [https://elephind.com/](https://elephind.com/) : Recherche des mots clés dans des millions d'articles
+* [https://gallica.bnf.fr/](https://gallica.bnf.fr/) : Recherche de mot clé dans des articles et livre (surtout FR)
 * [https://search.google.com/test/mobile-friendly?hl=fr](https://search.google.com/test/mobile-friendly?hl=fr) : Permet de voir des articles payants
 
 ## Tips
