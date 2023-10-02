@@ -93,9 +93,11 @@ description: https://app.mindmup.com/
 #### Avion
 
 * [flightaware ](https://fr.flightaware.com/): Historique des vols (sur 3 mois)
+* [https://globe.adsbexchange.com/](https://globe.adsbexchange.com/) : Historique des vols (sans restriction)
 * [flightradar24](https://www.flightradar24.com/) : Carte du monde avec les emplacements en direct des avions
 * [airportia](https://www.airportia.com/) : Historique des vols par compagnie aérienne
 * [https://airportinfo.live/fr/vol/](https://airportinfo.live/fr/vol/)\[AA000] couplé à Wayback Machine
+* [https://gijn.org/fr/francais-comment-utiliser-la-traque-avions-enqueter-enquete-investigation/](https://gijn.org/fr/francais-comment-utiliser-la-traque-avions-enqueter-enquete-investigation/) : multiple liens utiles
 
 #### Bateau
 
