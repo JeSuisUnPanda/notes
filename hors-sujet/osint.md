@@ -72,6 +72,7 @@ description: https://app.mindmup.com/
 ## Entreprise
 
 * [societe.ninja](https://www.societe.ninja/) : Généralité
+* [https://cybdetective.com/osintmap/](https://cybdetective.com/osintmap/) : Map/Bibliothèque de sites administratifs
 
 ## Sites Web
 
