@@ -43,6 +43,7 @@ description: https://app.mindmup.com/
 
 * [https://www.linkedin.com/in/](https://www.linkedin.com/in/)**\<user>**/
 * https://**\<user>**.skyrock.com/
+* [https://mstdn.social/@](https://mstdn.social/@)**\<user>**
 * [https://map.snapchat.com/](https://map.snapchat.com/) : Storys Snapchat récentes et géolocalisées
 
 ## Personne
