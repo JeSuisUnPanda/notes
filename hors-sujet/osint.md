@@ -77,7 +77,7 @@ description: https://app.mindmup.com/
 ## Sites Web
 
 * [Wayback Machine](https://archive.org/web/) et [archive.ph](https://archive.ph/) : Permet de voir la version d'un site web à une date donnée
-* Google dorks (inurl, site)
+* Google dorks (inurl, site, opérateurs logiques \[+ = et, | = ou, - = not])
 
 ## Geosint
 
