@@ -26,6 +26,7 @@
   * [telnet](cheat-sheet/telnet.md)
   * [wget](cheat-sheet/wget.md)
 * [Cheat Sheet (Windows)](cheat-sheet-windows/README.md)
+  * [gpresult](cheat-sheet-windows/gpresult.md)
   * [certutil.exe](cheat-sheet-windows/certutil.exe.md)
   * [findstr](cheat-sheet-windows/findstr.md)
   * [Import-Module](cheat-sheet-windows/import-module.md)
@@ -40,6 +41,7 @@
 
 * [Méthodologie](test-dintrusion-interne/methodologie.md)
 * [Active Directory](test-dintrusion-interne/active-directory/README.md)
+  * [ADCS](test-dintrusion-interne/active-directory/adcs.md)
   * [ASREP](test-dintrusion-interne/active-directory/asrep.md)
   * [DC SYNC](test-dintrusion-interne/active-directory/dc-sync.md)
   * [Kerberoast](test-dintrusion-interne/active-directory/kerberoast.md)
@@ -67,6 +69,7 @@
   * [RDP](test-dintrusion-interne/reseau/rdp.md)
   * [RPC](test-dintrusion-interne/reseau/rpc.md)
   * [SMB](test-dintrusion-interne/reseau/smb.md)
+  * [VoIP](test-dintrusion-interne/reseau/voip.md)
   * [WiFi](test-dintrusion-interne/reseau/wifi.md)
   * [WinRM](test-dintrusion-interne/reseau/winrm.md)
 * [Windows](test-dintrusion-interne/windows/README.md)

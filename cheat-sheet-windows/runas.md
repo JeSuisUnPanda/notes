@@ -9,3 +9,9 @@ description: runas vs invoke-command ???
 ```
 runas /user:<USER> "<POWERSHELL_COMMAND"
 ```
+
+* Exécuter une commande sur le domaine depuis une machine qui n'est pas inclue dans ce dernier :
+
+```
+runas /netonly /user:<DOMAIN.LOCAL>\<USER> <CMD> # Exemple snaffler.
+```
