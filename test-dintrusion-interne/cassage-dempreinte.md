@@ -1,6 +1,13 @@
 # Cassage d'empreinte/MDP
 
-### LM <a href="#9330" id="9330"></a>
+### MD5 <a href="#id-9330" id="id-9330"></a>
+
+```
+john hash.txt --format=Raw-MD5
+hashcat –m 0 hashes hash.txt
+```
+
+### LM <a href="#id-9330" id="id-9330"></a>
 
 Présent dans la base SAM ou NTDS.
 
@@ -22,7 +29,7 @@ john --format=nt hash.txt
 hashcat -m 1000 -a 3 hash.txt
 ```
 
-### NTLMv1 (A.K.A. Net-NTLMv1) <a href="#1070" id="1070"></a>
+### NTLMv1 (A.K.A. Net-NTLMv1) <a href="#id-1070" id="id-1070"></a>
 
 Obtenu avec Responder.
 
@@ -33,7 +40,7 @@ john --format=netntlm hash.txt
 hashcat -m 5500 -a 3 hash.txt
 ```
 
-### NTLMv2 (A.K.A. Net-NTLMv2) <a href="#4fef" id="4fef"></a>
+### NTLMv2 (A.K.A. Net-NTLMv2) <a href="#id-4fef" id="id-4fef"></a>
 
 Obtenu avec Responder.
 
@@ -124,7 +131,7 @@ Mettre quelques mot dans un fichier.
 hashcat --force <WORD-FILE.TXT> -r rules.rule --stdout > <DICO.TXT>
 ```
 
-La règle utilisée : [https://github.com/NotSoSecure/password\_cracking\_rules/](https://github.com/NotSoSecure/password\_cracking\_rules/blob/master/OneRuleToRuleThemAll.rule)
+La règle utilisée : [https://github.com/NotSoSecure/password\_cracking\_rules/](https://github.com/NotSoSecure/password_cracking_rules/blob/master/OneRuleToRuleThemAll.rule)
 
 _**Note :** Appliquer une règle L33T en plus peut s'avérer utile. (penser aux majuscule également)_
 
@@ -133,6 +140,20 @@ f = open("dico.txt", "r")
 s = ""
 for pwd in f:
     print(pwd.replace('a','4').replace('e','3').replace('s','5').replace('o','0'))
+```
+
+Il existe également l'outil suivant :&#x20;
+
+```
+crunch <min> <max> -t <pattern> -l <escape>
+
+crunch 3 3 -t '1%%' -> va faire 100, 101, 102 ... 199
+crunch 3 3 -t '1%%' -l aa% -> va faire 10%, 11%, 12% ... 19%
+
+@ = lower case
+, = uppercase
+% = number
+^ = special character
 ```
 
 #### TIPS :&#x20;

